@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fashion time</title>
+    <title>fashion Blog</title>
     <style><?php include"style.css"?> </style>
 </head>
 <body>
@@ -14,7 +14,7 @@
     <a href="home.php">
         <img src="logo.png" alt="the website icon"
    width="100" height="100"></a> <br>
-    <h1> Fashion time</h1> 
+    <h1> Fashion Blog</h1> 
     <ul>
   <li><a href="home.php">Home</a></li>
   <li><a href="news.asp">News</a></li>
