@@ -125,5 +125,84 @@ function changeImage() {
 <center>
 <a href="mailto:Roorn.1422@gmail.com" > Email Me! </a><br>
 </center>
+    <br><br>
+</center>
+<center>
+<img  src="G11.jpg" width="160" height="180">
+<img  src="G2.jpg" width="160" height="180">
+<img  src="G3.jpg" width="160" height="180">
+ <br>
+<img  src="G4.jpg" width="160" height="180">
+<img  src="G5.jpg" width="160" height="180">
+
+</center>
+<h2 style=" text-align:center;" > Written by Norah AL-Shammari</h2>
+<center>
+<a href="mailto:Haraon7878@gmail.com" > Email Me! </a><br>
+</center>
+    <hr>
+<br>
+<img src="burberry.jpg" alt="burberry logo" width="150" hight="130">
+<h1>
+<br>
+ Burberry is a high end fashion house based in London. 
+ Established by Thomas Burberry, the fashion brand is an embodiment of high quality clothing,
+ fragrances, eyewear,cosmetics, and accessories. 
+</h1>
+<br>
+<center>
+<img id="bboot" onclick="changeImage1()" src="bboot.webp" width="160" height="200">
+<script>
+function changeImage1() {
+ var image = document.getElementById('bboot');
+ if (image.src.match("bulbon")) {
+ image.src = "bboot2.webp";
+ } else {
+ image.src = "bboot2.webp";
+ }
+}
+</script>
+</center>
+<center>
+<img  src="bbag.webp" width="160" height="180">
+<img  src="cbag2.webp" width="160" height="180">
+<img  src="gboot.webp" width="160" height="200">
+ <br>
+<img  src="kbag.webp" width="160" height="180">
+<img  src="ldress.JPG" width="160" height="200">
+
+</center>
+<h2 style=" text-align:center;" > Written by Kadi Al-Wabel</h2>
+<center>
+<a href="mailto:kady.wa13@gmail.com" > Email Me! </a><br>
+</center>
+    <br> <br>
+<center>
+<img src="Diorlogo. jpeg.jpeg" alt="Dior logo" width="150" hight="130">
+</Center>
+<h1> <pre>
+Dior is a French luxury fashion house. 
+The company was founded in 1946 by French fashion designer Christian Dior.
+This brand just sells shoes, Makeup, Bags, Perfumes, Jewelry, and clothing and can only be bought in Dior stores.
+</pre></h1>
+<br>
+<center>
+    <p>Sauvage is one of the most famous perfume.</p> <br>
+    <img  src="Sauvage. jpeg.jpg" width="200" height="250"> <br>
+    <img  src="Makeup1.jpg" width="200" height="250">
+    <img  src="Makeup2.jpg" width="200" height="250">
+    <img  src="Makeup3.jpg" width="200" height="230">
+    <br>
+    <img  src="dress.jpg" width="200" height="250">
+    <img  src="Jewelry.jpg" width="200" height="250">
+    <img  src="Lady dior.jpg" width="200" height="250">
+    <img  src="shoes.jpg" width="200" height="250">
+     <br>
+  
+    </center>
+    <h2 style=" text-align:center;" > Written by Raghad Al Jaithen</h2>
+    <center>
+    <a href="mailto:jeraghad@gmail.com" > Email Me! </a><br>
+    </center>
 </body>
 </html>
