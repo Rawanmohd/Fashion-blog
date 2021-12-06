@@ -72,23 +72,24 @@ font-style:italic; }
 </head>
 <body>
 
-<div class="navbar">
-            <a href="#">Home</a>
-            <a href="#">Content</a>
-            <a href="#" >About us</a>
-          </div>
 
 <header id="head"> 
-      
+       <div id="home"></div> 
     <a href="home.php">
         <img src="logo.png" alt="the website icon"
    width="100" height="100"></a> <br>
     <h1> Fashion Blog</h1> 
     <ul>
-  <li><a href="home.php">Home</a></li>
-  <li><a href="about.asp">About</a></li>
+  <li><a href="#home">Home</a></li>
+  <li><a href="about.html">About</a></li>
+           <li> <a href="#prada">Prada</a></li>
+            		 <li><a href="#gucci" >Gucci</a></li>
+					 <li><a href="#burberry" >Burberry</a></li>
+			  <li><a href="#dior" >Dior</a></li>
+          <li><a href="#louisvuitton" >LouisVuitton</a></li>
 </ul>
 </header>
+     <div id="prada"></div>
 <hr>
 <br>
 <img src="Prada.png" alt="prada logo" width="150" hight="130">
@@ -125,157 +126,11 @@ function changeImage() {
 <center>
 <a href="mailto:Roorn.1422@gmail.com" > Email Me! </a><br>
 </center>
-    <br><br>
-</center>
-<center>
-<img  src="G11.jpg" width="160" height="180">
-<img  src="G2.jpg" width="160" height="180">
-<img  src="G3.jpg" width="160" height="180">
- <br>
-<img  src="G4.jpg" width="160" height="180">
-<img  src="G5.jpg" width="160" height="180">
-
-</center>
-<h2 style=" text-align:center;" > Written by Norah AL-Shammari</h2>
-<center>
-<a href="mailto:Haraon7878@gmail.com" > Email Me! </a><br>
-</center>
+    <div id="gucci"></div>
     <hr>
-<br>
-<img src="burberry.jpg" alt="burberry logo" width="150" hight="130">
-<h1>
-<br>
- Burberry is a high end fashion house based in London. 
- Established by Thomas Burberry, the fashion brand is an embodiment of high quality clothing,
- fragrances, eyewear,cosmetics, and accessories. 
-</h1>
-<br>
-<center>
-<img id="bboot" onclick="changeImage1()" src="bboot.webp" width="160" height="200">
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fashion Blog</title>
-  
-  <style>
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-.navbar a {
-  float: left; 
-  display: block; 
-  color: white; 
-  text-align: center; 
-  padding: 14px 20px; 
-  text-decoration: none; 
-}
-.navbar a.right {
-  float: right; 
-}
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-#loop{
-  color : orange ; font-size: 30px;
-}
-#head{ text-align: center; color :#554439 ; font-family: Georgia; font-size: 25px;
-background-image:url("backg.jpg") ;  background-attachment: fixed;  height:300px ;
-}
-ul { 
-    list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  
-  }
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: rgb(121, 119, 119);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #afd0df;
-  } 
-h1{
-text-align:center;
-color: black;
-font-style:italic; }
-  
- </style>
-</head>
-<body>
-<div class="navbar">
-            <a href="#">Home</a>
-            <a href="#">Content</a>
-            <a href="#" >About us</a>
-          </div>
-<header id="head"> 
-      
-    <a href="home.php">
-        <img src="logo.png" alt="the website icon"
-   width="100" height="100"></a> <br>
-    <h1> Fashion Blog</h1> 
-    <ul>
-  <li><a href="home.php">Home</a></li>
-  <li><a href="about.asp">About</a></li>
-</ul>
-</header>
-<hr>
-<br>
-<img src="Prada.png" alt="prada logo" width="150" hight="130">
-<h1>
-<br>
-Prada is an Italin luxury fashion house that was founded in 1913 by Mario Prada.
- It specializes in leather handbags, travelaccessories, shos, ready-to-wear,perfumes and other fashion accessories.
-</h1>
-<br>
-<center>
-<img id="myImage" onclick="changeImage()" src="Bag2.JPEG" width="160" height="200">
-<script>
-function changeImage() {
- var image = document.getElementById('myImage');
- if (image.src.match("bulbon")) {
- image.src = "Bag1.JPEG";
- } else {
- image.src = "Bag1.JPEG";
- }
-}
-</script>
-</center>
-<center>
-<img  src="Hels.JPEG" width="160" height="180">
-<img  src="hels2.JPEG" width="160" height="180">
-<img  src="sport.JPEG" width="160" height="180">
- <br>
-<img  src="dress1.JPEG" width="160" height="180">
-<img  src="dress2.JPEG" width="160" height="180">
-<img  src="per1.JPEG" width="160" height="180">
-<img  src="per2.JPEG" width="160" height="180">
-</center>
-<h2 style=" text-align:center;" > Written by Rawan Al-Harbi</h2>
-<center>
-<a href="mailto:Roorn.1422@gmail.com" > Email Me! </a><br>
-</center>
     <br><br>
 </center>
 <img src="G0.png"  width="150" hight="130">
-
 <br>
 <h1>
  Gucci is a luxury luxury goods brand and part of the Gucci Group, which is owned by the French company Kring known as PPR.
@@ -295,6 +150,7 @@ function changeImage() {
 <center>
 <a href="mailto:Haraon7878@gmail.com" > Email Me! </a><br>
 </center>
+    <div id="burberry"></div>
     <hr>
 <br>
 <img src="burberry.jpg" alt="burberry logo" width="150" hight="130">
@@ -330,6 +186,8 @@ function changeImage1() {
 <center>
 <a href="mailto:kady.wa13@gmail.com" > Email Me! </a><br>
 </center>
+    <div id="dior"></div>
+    <hr>
     <br> <br>
 <center>
 <img src="Diorlogo. jpeg.jpeg" alt="Dior logo" width="150" hight="130">
@@ -358,8 +216,9 @@ This brand just sells shoes, Makeup, Bags, Perfumes, Jewelry, and clothing and c
     <center>
     <a href="mailto:jeraghad@gmail.com" > Email Me! </a><br>
     </center>
-    
-    <center>
+    <div id="louisvuitton"></div>
+    <hr>
+	 <center>
 <img src="Louis_Vuitton_logo.png" alt="Louis Vuitton logo" width="100" hight="90">
 </Center>
 <h1> <pre>
@@ -370,7 +229,6 @@ Louis Vuitton Malletier , commonly known as Louis Vuitton or by its
  shoes, watches, jewelry, accessories, sunglasses and books.
  
 </pre></h1>
-
 <center>
     
     <img  src="lv1.jpg" alt="Louis Vuitton prodect" width="220" height="220"> <br>
@@ -389,7 +247,6 @@ Louis Vuitton Malletier , commonly known as Louis Vuitton or by its
     <center>
     <a href="Layanaldhahri@gmail.com" > Email Me! </a><br>
     </center>
-
     <form action="connect.php" method="post">  <fieldset> <legend>Questionnaire:</legend>
               <div class="form-group">
                 <label for="guestName">Guest Name</label>
