@@ -67,6 +67,12 @@ text-align:center;
 color: black;
 font-style:italic; }
   
+	  
+fieldset{
+
+  background-color: rgb(216, 194, 167); 
+    font-size: 20px;
+}
  </style>
 
 </head>
